@@ -1,0 +1,28 @@
+{
+  "name": "ent-auto-complete",
+  "version": "2.0.7",
+  "description": "Componente responsável pela gestão de Auto Complete",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Component",
+    "Entelgy",
+    "Auto Complete"
+  ],
+  "publishConfig": {
+    "registry": "http://192.168.0.59/content/repositories/npm/"
+  },
+  "author": "Entelgy Front End Team",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.18.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-clean": "^0.3.2",
+    "gulp-uglify": "^2.0.0"
+  },
+  "dependencies": {
+    "select2": "^4.0.4"
+  }
+}
